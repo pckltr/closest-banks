@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #002742;
+}
+
+.root {
+  height: 100vh;
+}
+.app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.header {
+  background-color: #FFFFFF;
+}
+
+.header .wrapper {
+  padding: 1em 0;
+}
+
+.logo {
+  height: 1em;
+}
+
+.main {
+  background-color: #FAFAFA;
+  flex: 1;
+}
+
+.page_title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.page_subtitle {
+  font-size: 0.8rem;
+  color: #1A3D56;
+}
+
+.bank_list {
+  margin: 2em 0;
+  padding: 2em 1.5em;
+  list-style-type: none;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+  border-radius: 4px;
+  max-width: 50%;
+}
+
+.bank_list_item {
+  cursor: pointer;
+  margin-bottom: 1em;
+  display: flex;
+}
+
+.bank_list_item:last-child {
+  margin-bottom: 0;
+}
+.bank_logo_wrapper {
+  margin-right: 0.5em;
+}
+.bank_location {
+  display: none;
+  margin-left: auto;
+}
+.bank_name {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  font-weight: bold;
+  opacity: 0.8;
+}
+.bank_address {
+  color: rgba(0,0,0,0.5);
+}
+
+.bank_list_item:hover .bank_location {
+  display: block;
+}
+
+.map_marker {
+  color: red;
+  height: 30px;
+  opacity: 0.5;
+}
