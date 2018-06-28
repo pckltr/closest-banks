@@ -1,6 +1,6 @@
 # Closest ATMs
 
-Shows a list of the closest ATMs to your location.
+Shows a list of the closest ATMs based on your location.
 
 PS: allow browser location :)
 
